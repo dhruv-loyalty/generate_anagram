@@ -1,4 +1,4 @@
-/*resource "aws_alb" "main" {
+resource "aws_alb" "main" {
   name            = "anagram-balancer"
   subnets         = [module.vpc-prod.public_subnets[0], module.vpc-prod.public_subnets[1], module.vpc-prod.public_subnets[2]]
   security_groups = [aws_security_group.lb.id]
@@ -34,8 +34,8 @@ resource "aws_alb_listener" "front_end" {
     target_group_arn = aws_alb_target_group.app.id
     type             = "forward"
   }
-}*/
-
+}
+/*
 module "main" {
   source  = "terraform-aws-modules/alb/aws"
   version = "~> 5.0"
@@ -81,4 +81,4 @@ module "main" {
   tags = {
     Environment = "Test"
   }
-}
+}*/
