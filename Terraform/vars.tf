@@ -82,4 +82,7 @@ variable "fargate_memory" {
   default     = "2048"
 }
 
+variable "AWS_ACCESS_KEY" {}
+variable "AWS_SECRET_KEY" {}
+
 
