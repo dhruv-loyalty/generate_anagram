@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Generate anagrams</title>
+<title>Generate Anagrams</title>
 </head>
 <body>
 	<h1>Generate Anagrams</h1>
