@@ -22,6 +22,6 @@ public class HttpRequestTest {
 	@Test
 	public void greetingShouldReturnDefaultMessage() throws Exception {
 		assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
-				String.class)).contains("Generate anagrams");
+				String.class)).contains("Generate");
 	}
 }
