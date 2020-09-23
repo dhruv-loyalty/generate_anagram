@@ -12,5 +12,8 @@ template{
     stage("Docker Push"){
         Docker.pushImage()
     }
+    stage("Deploy"){
+    	Terraform.initAndApply("Terraform")
+    }
   }
 }
