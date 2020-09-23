@@ -22,4 +22,5 @@ libraries{
     maven
     docker
     terraform
+    aws
 }

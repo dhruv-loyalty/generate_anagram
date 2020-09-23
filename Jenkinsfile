@@ -13,7 +13,7 @@ template{
         Docker.pushImage()
     }
     stage("Deploy"){
-    	Terraform.initAndApply("Terraform")
+    	AWS.updateService()
     }
   }
 }
