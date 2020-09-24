@@ -1,5 +1,3 @@
-# security.tf
-
 # ALB Security Group: Edit to restrict access to the application
 resource "aws_security_group" "lb" {
   name        = "anagram-load-balancer-security-group"
