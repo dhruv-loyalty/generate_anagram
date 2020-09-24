@@ -21,4 +21,5 @@ public class TestingWebApplicationTest {
 	public void shouldReturn200() throws Exception {
 		this.mockMvc.perform(get("/anagrams")).andDo(print()).andExpect(status().isOk());
 	}
+
 }
