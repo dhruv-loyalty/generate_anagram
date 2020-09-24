@@ -3,7 +3,7 @@ resource "aws_cloudwatch_log_group" "anagram_log_group" {
   retention_in_days = 30
 
   tags = {
-    Name = "cb-log-group"
+    Name = "anagram-log-group"
   }
 }
 
