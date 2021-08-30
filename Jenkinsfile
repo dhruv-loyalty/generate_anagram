@@ -12,6 +12,7 @@ template{
     stage("Docker Push"){
         Docker.pushImage()
     }
+
     stage("Deploy"){
     	AWS.updateService()
     }
